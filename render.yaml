@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: hybrid-microgrid-dashboard
+    runtime: node
+    plan: free
+    buildCommand: cd dashboard && npm install
+    startCommand: node dashboard/server.js
+    envVars:
+      - key: THINGSPEAK_CHANNEL_ID
+        value: "3570460"
+      - key: THINGSPEAK_READ_KEY
+        sync: false
+        
