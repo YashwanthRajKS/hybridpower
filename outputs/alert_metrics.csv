@@ -1,0 +1,4 @@
+Model,Precision,Recall,F1,PR-AUC,Alerts caught,Missed,False alarms
+No balancing,0.54,0.07,0.12,0.37,7,99,6
+Class weights,0.35,0.5,0.41,0.34,53,53,98
+SMOTE,0.32,0.49,0.39,0.31,52,54,110

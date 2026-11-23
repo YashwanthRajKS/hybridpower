@@ -1,0 +1,21 @@
+Dataset,Target,Model,MAE_kW,RMSE_kW
+Synthetic,PV,Persistence,7.41,11.479
+Synthetic,PV,Random Forest,0.738,3.448
+Synthetic,PV,Gradient Boosting,0.932,3.607
+Synthetic,Wind,Persistence,4.554,6.243
+Synthetic,Wind,Random Forest,4.687,6.482
+Synthetic,Wind,Gradient Boosting,5.149,7.31
+Synthetic,PV+Wind,Persistence,9.583,12.753
+Synthetic,PV+Wind,Random Forest,5.105,7.511
+Synthetic,PV+Wind,Gradient Boosting,5.646,8.235
+Synthetic,PV+Wind,Best Mix (RF PV + Persistence Wind),4.967,7.193
+NASA-based,PV,Persistence,6.264,9.744
+NASA-based,PV,Random Forest,1.254,2.513
+NASA-based,PV,Gradient Boosting,1.25,2.458
+NASA-based,Wind,Persistence,1.531,2.786
+NASA-based,Wind,Random Forest,1.129,1.95
+NASA-based,Wind,Gradient Boosting,1.054,1.925
+NASA-based,PV+Wind,Persistence,7.292,10.319
+NASA-based,PV+Wind,Random Forest,2.028,3.069
+NASA-based,PV+Wind,Gradient Boosting,1.998,3.1
+NASA-based,PV+Wind,Best Mix (RF PV + Persistence Wind),2.448,3.618

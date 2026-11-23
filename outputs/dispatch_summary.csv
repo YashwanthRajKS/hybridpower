@@ -1,0 +1,7 @@
+Strategy,Unserved energy (kWh),Diesel run hours,Starts,Fuel (L),CO2 (kg)
+No AI: react after shortfall,108.4,231.2,21,6750,18091
+Naive forecast (same as 1 h ago),158.8,242.8,19,7038,18861
+AI forecast,58.3,241.0,18,6978,18701
+Perfect forecast (upper bound),15.2,241.8,18,6998,18756
+AI + alert (no balancing),58.3,241.0,18,6978,18701
+AI + SMOTE alert,47.0,243.8,16,7028,18835

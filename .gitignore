@@ -1,0 +1,9 @@
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+node_modules/
+dashboard/.env
+.env
+outputs/rag_embeddings_cache.npz
+outputs/*.mat

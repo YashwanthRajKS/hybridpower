@@ -1,0 +1,7 @@
+Dataset,Strategy,Unserved Energy (kWh),Diesel Fuel (L),Diesel Energy (kWh),Diesel Starts,CO2 Emissions (kg)
+Synthetic,Reactive (No AI),286.418,6666.7,9648.253,18,17866.757
+Synthetic,AI Forecast,108.438,6992.868,10016.257,19,18740.886
+Synthetic,Perfect Forecast,53.672,7101.366,10136.257,18,19031.661
+NASA-based,Reactive (No AI),136.117,7835.836,13602.324,15,21000.039
+NASA-based,AI Forecast,52.401,8269.828,14082.324,21,22163.138
+NASA-based,Perfect Forecast,0.0,8242.703,14052.324,15,22090.444

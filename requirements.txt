@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+# optional (the code works without them):
+# imbalanced-learn    # standard SMOTE; the project has its own implementation as a fallback
+# anthropic           # only if you want the RAG assistant to call an LLM automatically

@@ -1,0 +1,3 @@
+Scenario,Breaker_Close_Time_s,Cloud_Drop_Time_s,Unserved_Deficit_Window_s,Diesel_Online_Duration_s,Wind_Transient_Collapse,Simulink_Logged_Samples
+AI Predictive Dispatch,0.4,0.46,0.0,1.11,None (Stabilized by Diesel),1000
+Reactive Baseline (No-AI),0.95,0.46,0.49,0.56,Yes (1.25 s - 1.40 s dropout),1000

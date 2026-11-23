@@ -1,0 +1,21 @@
+Q_Num,Question,Expected,Top1_ID,Top3_IDs,Core_Rule_Included,Hit_Top3
+1,Why did the diesel generator turn on before the solar panels dropped?,policy,POL-0000,"POL-0000, STA-0095, STA-0077",True,True
+2,Why is there still some unserved load during the 30-minute warm-up period?,policy,POL-0001,"POL-0001, UNS-0042, UNS-0096",True,True
+3,Why doesn't the diesel shut off immediately after 15 minutes when clouds pass?,policy,POL-0002,"POL-0002, STO-0028, STO-0086",True,True
+4,How does the AI decide when to trigger the backup diesel generator?,policy,POL-0000,"POL-0000, POL-0001, STA-0041",True,True
+5,What is the minimum load percentage the diesel engine must maintain when running?,policy,POL-0003,"POL-0003, POL-0001, POL-0002",True,True
+6,Why does the reactive strategy always suffer unserved load when renewables drop?,policy,POL-0000,"POL-0000, UNS-0116, UNS-0105",True,True
+7,How much did AI scheduling reduce unserved energy on the real Bengaluru NASA weather dataset?,policy,UNS-0047,"UNS-0047, UNS-0043, UNS-0053",False,False
+8,Why did we use SMOTE on the alert classifier and what threshold was used for NASA data?,policy,POL-0000,"POL-0000, POL-0004, POL-0005",True,True
+9,Why did the diesel start on 15 February at 02:30 under AI control?,STA-0007,POL-0001,"POL-0001, STA-0007, STA-0055",True,True
+10,What caused the AI diesel startup on 15 February around 15:45?,STA-0009,STA-0009,"STA-0009, STA-0057, STA-0007",False,True
+11,Explain why the backup generator came online at 16:45 on 16 February.,STA-0011,POL-0000,"POL-0000, STA-0011, STA-0059",True,True
+12,When did the reactive no-AI diesel start on 15 February?,STA-0055,STA-0057,"STA-0057, STA-0055, STA-0009",False,True
+13,How long did the AI diesel run before stopping on 15 February at 09:00?,STO-0008,STO-0008,"STO-0008, STO-0056, STA-0009",False,True
+14,Why was load unserved on 15 February around 02:00 with AI?,UNS-0042,POL-0001,"POL-0001, UNS-0042, UNS-0096",True,True
+15,How many kWh went unserved during the outage on 15 February without AI?,UNS-0096,UNS-0097,"UNS-0097, UNS-0096, SUM-0119",False,True
+16,Give me the daily energy and diesel run time summary for 15 February under AI.,SUM-0118,SUM-0118,"SUM-0118, SUM-0119, UNS-0043",False,True
+17,What was the average forecast error and unserved energy on 15 February?,SUM-0119,SUM-0118,"SUM-0118, UNS-0043, UNS-0042",False,False
+18,How many times did the AI diesel start on 16 February?,SUM-0120,STA-0011,"STA-0011, STA-0013, SUM-0120",False,True
+19,How is diesel fuel consumption and CO2 emissions calculated in this microgrid?,policy,POL-0003,"POL-0003, POL-0006, POL-0000",True,True
+20,Which forecasting model is used for PV versus wind power?,policy,SUM-0142,"SUM-0142, SUM-0144, SUM-0134",False,False

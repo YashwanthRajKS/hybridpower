@@ -1,0 +1,11 @@
+target,model,MAE_kW,RMSE_kW
+PV,Persistence (baseline),7.45,11.81
+PV,Random forest,0.92,3.96
+PV,Gradient boosting,1.03,3.85
+Wind,Persistence (baseline),5.53,7.72
+Wind,Random forest,5.98,8.26
+Wind,Gradient boosting,6.06,8.63
+PV+Wind,Persistence (baseline),10.5,13.82
+PV+Wind,Random forest,6.44,9.32
+PV+Wind,Gradient boosting,6.54,9.53
+PV+Wind,Best mix (PV random forest + wind persistence),6.03,8.76

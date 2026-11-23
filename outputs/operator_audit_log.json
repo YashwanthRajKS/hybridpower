@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2026-11-23T02:32:25.785Z",
+    "question": "How much unserved energy did AI save on NASA data?",
+    "answer": "[1] AI strategy - UNSERVED LOAD event: 8.8 kWh went unserved on 17 February 2026 between 22:30 and 23:30 (peak shortfall 13 kW) because the diesel was still warming up during its 30-minute start-up delay, and the AI forecast (64 kW) underestimated the drop (actual renewable 52 kW). Irradiance 0 W/m2, wind 9.2 m/s. [2] AI strategy - UNSERVED LOAD event: 16.8 kWh went unserved on 15 February 2026 between 14:30 and 15:45 (peak shortfall 19 kW) because the diesel was still warming up during its 30-minute start-up delay, and the AI forecast (78 kW) underestimated the drop (actual renewable 43 kW). Irradiance 416 W/m2, wind 4.5 m/s. [3] AI strategy - UNSERVED LOAD event: 4.3 kWh went unserved on 22 February 2026 between 16:15 and 17:00 (peak shortfall 10 kW) because the diesel was still warming up during its 30-minute start-up delay, and the AI forecast (73 kW) underestimated the drop (actual renewable 58 kW). Irradiance 443 W/m2, wind 6.5 m/s.",
+    "backend": "local-cosine (cached)"
+  },
+  {
+    "timestamp": "2026-11-23T02:32:18.753Z",
+    "question": "How much unserved energy did AI save on NASA data?",
+    "answer": "[1] AI strategy - UNSERVED LOAD event: 8.8 kWh went unserved on 17 February 2026 between 22:30 and 23:30 (peak shortfall 13 kW) because the diesel was still warming up during its 30-minute start-up delay, and the AI forecast (64 kW) underestimated the drop (actual renewable 52 kW). Irradiance 0 W/m2, wind 9.2 m/s. [2] AI strategy - UNSERVED LOAD event: 16.8 kWh went unserved on 15 February 2026 between 14:30 and 15:45 (peak shortfall 19 kW) because the diesel was still warming up during its 30-minute start-up delay, and the AI forecast (78 kW) underestimated the drop (actual renewable 43 kW). Irradiance 416 W/m2, wind 4.5 m/s. [3] AI strategy - UNSERVED LOAD event: 4.3 kWh went unserved on 22 February 2026 between 16:15 and 17:00 (peak shortfall 10 kW) because the diesel was still warming up during its 30-minute start-up delay, and the AI forecast (73 kW) underestimated the drop (actual renewable 58 kW). Irradiance 443 W/m2, wind 6.5 m/s.",
+    "backend": "local-cosine (cached)"
+  }
+]
